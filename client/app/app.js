@@ -5,7 +5,9 @@ angular.module('gitHubTestApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ui.router'
+  'ui.router',
+  'stormpath',
+  'stormpath.templates'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
