@@ -6,6 +6,9 @@ angular.module('gitHubTestApp')
       .state('profile', {
         url: '/profile',
         templateUrl: 'app/profile/profile.html',
-        controller: 'ProfileCtrl'
+        controller: 'ProfileCtrl',
+        sp: {
+          authenticate: true
+        }
       });
   });
